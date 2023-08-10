@@ -12,17 +12,17 @@ export default function Register() {
                     <form className='flex flex-col gap-[20px]'>
                         <div className='flex gap-[20px]'>
                             <div className='flex w-[50%] justify-end'>
-                                <Link className='flex rounded-[30px] bg-[#5BBB7B] hover:bg-[#5bbb7bc9] px-[20px] py-[10px] border' to="">
-                                    {/* <svg className="svg-inline--fa fa-user w-[16px] h-[16px] my-[11.5px] text-black hover:text-[#5BBB7B]" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505.941 475.059l-136.002-136.002c31.211-35.808 50.061-82.102 50.061-132.557C420 101.803 327.197 9 214 9S8 101.803 8 215s92.803 206 206 206c50.455 0 96.748-18.85 132.557-50.061l136.002 136.002c10.001 10.001 23.188 15.53 37.443 15.53s27.442-5.529 37.443-15.53c20.585-20.586 20.585-53.98 0-74.566zM214 361c-86.019 0-156-69.981-156-156s69.981-156 156-156 156 69.981 156 156-69.981 156-156 156z"></path></svg> */}
-                                    <span className='text-[15px] font-[500] leading-[28px] text-[#222]'>Freelancer</span>
+                                <Link className='flex rounded-[30px] bg-[#5BBB7B] hover:bg-[#5bbb7bc9] px-[20px] py-[10px] border items-center' to="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-person" viewBox="0 0 16 16"> <path d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" /> </svg>
+                                    <span className='text-[15px] font-[500] leading-[28px] text-[#222] pl-[10px]'>Freelancer</span>
                                 </Link>
 
                             </div>
                             <div className='flex w-[50%]'>
 
-                                <Link className='flex rounded-[30px] px-[5px] py-[10px]' to="">
-                                    {/* <svg className="svg-inline--fa fa-user w-[16px] h-[16px] my-[11.5px] text-black hover:text-[#5BBB7B]" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505.941 475.059l-136.002-136.002c31.211-35.808 50.061-82.102 50.061-132.557C420 101.803 327.197 9 214 9S8 101.803 8 215s92.803 206 206 206c50.455 0 96.748-18.85 132.557-50.061l136.002 136.002c10.001 10.001 23.188 15.53 37.443 15.53s27.442-5.529 37.443-15.53c20.585-20.586 20.585-53.98 0-74.566zM214 361c-86.019 0-156-69.981-156-156s69.981-156 156-156 156 69.981 156 156-69.981 156-156 156z"></path></svg> */}
-                                    <span className='text-[15px] font-[500] leading-[28px] text-[#222]'>Employer</span>
+                                <Link className='flex rounded-[30px] px-[5px] py-[10px] items-center' to="">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-briefcase" viewBox="0 0 16 16"> <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" /> </svg>
+                                    <span className='text-[15px] font-[500] leading-[28px] text-[#222] pl-[10px]'>Employer</span>
                                 </Link>
                                 {/* <span className='text-[15px] font-[500] leading-[28px] text-[#222]'>Employer</span> */}
                             </div>
