@@ -28,7 +28,7 @@ function App() {
           <Route path="/term" element={<Term />} />
           <Route path="/add_crewing" element={<PrivateRoute component={Add} />} /> */}
         </Routes>
-        <Footer />
+        {/* <Footer /> */}
       </BrowserRouter>
     </div>
   );

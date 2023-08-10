@@ -1,8 +1,10 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Footer from '../components/Footer'
 
 export default function Register() {
     return (
+        <>
         <div className='flex w-[100%] bg-[#FFEDE8] py-[120px]'>
             <div className='flex flex-col w-[40%] mr-auto ml-auto'>
                 <span className='text-center pb-[60px] text-[32px] font-[700] gap-[65px]'>Register</span>
@@ -57,6 +59,8 @@ export default function Register() {
                 </div>
             </div>
         </div>
+        <Footer />
+        </>
 
     )
 }

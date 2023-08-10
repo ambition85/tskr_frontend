@@ -38,4 +38,18 @@
 }
 
 
+.gray_color {
+  color: #a0a5a7;
+}
 
+.highcharts-title {
+  display: none !important;
+}
+
+.highcharts-axis-title {
+  display: none !important;
+}
+
+.highcharts-legend {
+  display: none !important;
+}
